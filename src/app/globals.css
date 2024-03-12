@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
-h1 {
+ /* h1 {
  text-align: center;
+} */
+
+.title {
+  text-align: center;
 }
