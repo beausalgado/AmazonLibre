@@ -1,4 +1,5 @@
 'use client';
+import { useState } from 'react';
 
 const isLoggedIn = false
 
@@ -25,21 +26,31 @@ const products = [
     </li>
   );
 
-    function handleClick() {
-      alert('You clicked me!');
-    }
-
+ 
 
 
 export default function Home() {
+    const [numberofclicks, setNumberofClicks] = useState(0);
+    function handleClick() {
+      setNumberofClicks(numberofclicks + 1);
+    }
+
   return (
   <>
   <h1 className="title">To Do List</h1>
   <h1 className="title"> {isLoggedIn && user.name}</h1>
   <ul>{listItems}</ul>
-  <button onClick={handleClick}> I'm a button</button>
+ <ButtonThingy numberofclicks={numberofclicks} handleClick={handleClick} />
+ <ButtonThingy numberofclicks={numberofclicks} handleClick={handleClick} />
+
   </>
 
   );
 }
 
+function ButtonThingy({numberofclicks, handleClick}) {
+
+  return (<button onClick={handleClick}> Clicked {numberofclicks}</button>) 
+  }
+ 
+ 
