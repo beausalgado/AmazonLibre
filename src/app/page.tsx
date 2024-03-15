@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image'
 
 const isLoggedIn = false
 
@@ -37,6 +38,14 @@ export default function Home() {
 
   return (
   <>
+  <header>
+  <Image
+      src="/amazonlogo.png"
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />
+  </header>
   <h1 className="title">To Do List</h1>
   <h1 className="title"> {isLoggedIn && user.name}</h1>
   <ul>{listItems}</ul>
