@@ -1,4 +1,4 @@
-'use client';
+"use client"
 import { useState } from 'react';
 import Image from 'next/image'
 
@@ -40,9 +40,21 @@ export default function Home() {
   <>
   <header>
   <Image
-      src="/amazonlogo.png"
-      width={500}
-      height={500}
+      src="/imgur.com/a/zpyyGu5"
+      width={200}
+      height={200}
+      alt="Picture of the author"
+    />
+      <Image
+      src={"/amazonlogo.png"}
+      width={200}
+      height={200}
+      alt="Picture of the author"
+    />
+          <Image
+      src={"/amazon-dark-logo-png-transparent.png"}
+      width={200}
+      height={200}
       alt="Picture of the author"
     />
   </header>
