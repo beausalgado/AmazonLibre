@@ -1,0 +1,30 @@
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+
+
+ /* h1 {
+ text-align: center;
+
+ #131921
+} */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #131921;
+    width: 100%;
+    position: relative;
+
+    .nav-logo {
+    height:30px;
+    width: auto;
+    padding: 9px;
+    padding-top: 18px;
+    }
+
+}
+
