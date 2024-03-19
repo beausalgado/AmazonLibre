@@ -59,17 +59,12 @@ export default function Home() {
   <h1 className="title">To Do List</h1>
   <h1 className="title"> {isLoggedIn && user.name}</h1>
   <ul>{listItems}</ul>
- <ButtonThingy numberofclicks={numberofclicks} handleClick={handleClick} />
- <ButtonThingy numberofclicks={numberofclicks} handleClick={handleClick} />
 
   </>
 
   );
 }
 
-function ButtonThingy({numberofclicks, handleClick}) {
 
-  return (<button onClick={handleClick}> Clicked {numberofclicks}</button>) 
-  }
  
  
