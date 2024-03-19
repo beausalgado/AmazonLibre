@@ -42,8 +42,12 @@ export default function Home() {
 
     <div className='navbar'>
     <a href="/"><img src="/amazonlogo.png" className='nav-logo'></img></a>
-    </div>
-  
+    <div className='nav-search'>
+    <form method="GET" name="global-search">
+      <input type="text" placeholder="Search.." className='search-box'></input>
+  </form>
+      </div>
+  </div>
   </header>
   <h1 className="title">To Do List</h1>
   <h1 className="title"> {isLoggedIn && user.name}</h1>
