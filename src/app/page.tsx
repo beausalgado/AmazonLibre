@@ -39,24 +39,22 @@ export default function Home() {
   return (
   <>
   <header>
+
+    <div className='navbar'>
   <Image
-      src="/imgur.com/a/zpyyGu5"
+      src="/amazonlogo.png"
       width={200}
       height={200}
       alt="Picture of the author"
     />
-      <Image
-      src={"/amazonlogo.png"}
+  <Image
+      src="/amazon-dark-logo-png-transparent.png"
       width={200}
       height={200}
       alt="Picture of the author"
     />
-          <Image
-      src={"/amazon-dark-logo-png-transparent.png"}
-      width={200}
-      height={200}
-      alt="Picture of the author"
-    />
+    </div>
+  
   </header>
   <h1 className="title">To Do List</h1>
   <h1 className="title"> {isLoggedIn && user.name}</h1>
