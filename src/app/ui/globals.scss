@@ -21,16 +21,19 @@ body {
     display: flex;
     align-items: center;
 
-    .nav-search{
-        display: flex;
-    }
-
-
     .nav-logo {
     height:30px;
     width: auto;
     padding: 9px;
     padding-top: 18px;
+    }
+
+    .nav-search{
+        display: flex;
+    }
+
+    .search-left {
+       background-color: red;
     }
 
     .search-box{

@@ -1,6 +1,4 @@
-use normal React and not next.js 
-
-https://stackoverflow.com/questions/74471642/nextjs-13-button-onclick-event-handlers-cannot-be-passed-to-client-componen
+make search box wide
 
 
 renamedrepository
