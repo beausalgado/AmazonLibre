@@ -42,13 +42,11 @@ export default function Home() {
     <div className='navbar'>
     <a href="/"><img src="/amazonlogo.png" className='nav-logo'></img></a>
     <div className='nav-search'>
-    <div className='search-left'>
-      <select>
-        <option>Test 1</option>
-        <option>Test 2</option>
-        <option>Test 3</option>
+      <select className='search-left'>
+        <option>Todo</option>
+        <option>Zapatillas</option>
+        <option>Plantas</option>
       </select>
-    </div>
     <form method="GET" name="global-search">
       <input type="text" placeholder="Buscar prodcuts, marcas y más.." className='search-box'></input>
   </form>

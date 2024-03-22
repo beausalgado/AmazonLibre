@@ -28,7 +28,7 @@ body {
     padding-top: 18px;
     }
     form {
-       // flex: 1;
+       flex: 1;
     }
     .nav-search{
         display: flex;
@@ -36,7 +36,15 @@ body {
        
     }
     .search-left {
-       background-color: red;
+       
+         height: 28px;
+         border: 0;
+         background-color: #D4D4D4;
+         border-radius: 3px 0px 0px 3px;
+         padding-left: 5px;
+         &:focus {
+            outline: 0;
+          }
     }
 
     .search-box{
@@ -44,6 +52,9 @@ body {
         width: 100%;
         border: 0;
         padding: 0;
+        overflow: hidden;
+        padding-left: 5px;
+        box-shadow: 0 1px 2px rgba(15,17,17,.15) inset;
 
         &:focus {
             outline: 0;
@@ -55,11 +66,14 @@ body {
         background-color: #febd69;
         display: flex;
         align-items: center;
-        border-radius: 0px 5px 5px 0px;
-     // background-color: #ff9900;
+        border-radius: 0px 3px 3px 0px;
+     
+     &:hover {
+   background-color: #ff9900;
+     }
     }
     .magnifying-glass {
-        height: 20px;
+        height: 13px;
         padding: 0 5px;
         transform: scaleX(-1);
 
