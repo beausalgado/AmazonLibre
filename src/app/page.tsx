@@ -53,6 +53,7 @@ export default function Home() {
     <form method="GET" name="global-search">
       <input type="text" placeholder="Buscar prodcuts, marcas y más.." className='search-box'></input>
   </form>
+
       </div>
   </div>
   </header>

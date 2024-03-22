@@ -27,18 +27,24 @@ body {
     padding: 9px;
     padding-top: 18px;
     }
-
+    form {
+        flex: 1;
+    }
     .nav-search{
         display: flex;
+        width: 100%;
+       
     }
-
     .search-left {
        background-color: red;
     }
 
     .search-box{
         height: 28px;
+        width: 100%;
+        
     }
 
 }
+
 
