@@ -1,6 +1,5 @@
 "use client"
 import { useState } from 'react';
-import Image from 'next/image'
 
 const isLoggedIn = false
 
@@ -53,7 +52,9 @@ export default function Home() {
     <form method="GET" name="global-search">
       <input type="text" placeholder="Buscar prodcuts, marcas y más.." className='search-box'></input>
   </form>
-
+     <div className='search-right'>
+     <img src="/magnifier.png" className='magnifying-glass'></img>
+     </div>
       </div>
   </div>
   </header>
