@@ -28,7 +28,7 @@ body {
     padding-top: 18px;
     }
     form {
-        flex: 1;
+       // flex: 1;
     }
     .nav-search{
         display: flex;
@@ -41,15 +41,29 @@ body {
 
     .search-box{
         height: 28px;
-        width: 80%;
+        width: 100%;
+        border: 0;
+        padding: 0;
+
+        &:focus {
+            outline: 0;
+          }
         
     }
     .search-right {
         height: 28px;
         background-color: #febd69;
+        display: flex;
+        align-items: center;
+        border-radius: 0px 5px 5px 0px;
+     // background-color: #ff9900;
     }
     .magnifying-glass {
-        height: 28px;
+        height: 20px;
+        padding: 0 5px;
+        transform: scaleX(-1);
+
+
     }
 
 }
