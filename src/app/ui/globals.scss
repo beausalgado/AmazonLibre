@@ -20,6 +20,14 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+    color: #fff;
+    font-size: 12px;
+
+    .pin {
+        height:13px;
+        padding: 5px;
+        margin-top: 10px;
+    }
 
     .nav-logo {
     height:30px;
