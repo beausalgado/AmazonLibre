@@ -41,11 +41,11 @@ export default function Home() {
 
     <div className='navbar'>
     <a href="/"><img src="/amazonlogo.png" className='nav-logo'></img></a>
-    <div className='location'>
+    <div className='location-container'>
     <img src="/pin.png" className='pin'></img>
     <div className='delivery-text'>
-      <span>Enviar a Beau</span>
-      <span>CABA 1641</span>
+      <span className='deliveryline-1'>Enviar a Beau</span>
+      <span className='deliveryline-2'>CABA 1641</span>
     </div>
     </div>
     <div className='nav-search'>

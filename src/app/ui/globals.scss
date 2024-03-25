@@ -23,6 +23,28 @@ body {
     color: #fff;
     font-size: 12px;
 
+    .location-container {
+        display: flex;
+        // width: fit-content;
+    
+    }
+    .delivery-text {
+       display: flex;
+       flex-direction: column;
+       white-space: nowrap;
+       padding: 0px 16px 0px 0px;
+       justify-content: center;
+
+    }
+
+    .deliveryline-1 {
+        font-weight: 400;
+        line-height: 110%;
+    }
+    .deliveryline-2 {
+        font-weight: 700;
+    }
+
     .pin {
         height:13px;
         padding: 5px;
