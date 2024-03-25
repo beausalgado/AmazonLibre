@@ -41,11 +41,11 @@ export default function Home() {
 
     <div className='navbar'>
     <a href="/"><img src="/amazonlogo.png" className='nav-logo'></img></a>
-    <div className='location-container'>
+    <div className='nav-text-container'>
     <img src="/pin.png" className='pin'></img>
-    <div className='delivery-text'>
-      <span className='deliveryline-1'>Enviar a Beau</span>
-      <span className='deliveryline-2'>CABA CP1641</span>
+    <div className='nav-innertext-container'>
+      <span className='line-1'>Enviar a Beau</span>
+      <span className='line-2'>CABA CP1641</span>
     </div>
     </div>
     <div className='nav-search'>
@@ -69,12 +69,24 @@ export default function Home() {
       </select>
      
     </div>
+    <div className='nav-text-container accounts'>
+    <div className='nav-innertext-container'>
+      <span className='line-1'>Hello, Beau</span>
+      <span className='line-2'>Accounts & Lists</span>
+    </div>
+    </div>
+    <div className='nav-text-container'>
+    <div className='nav-innertext-container'>
+      <span className='line-1'>Returns</span>
+      <span className='line-2'>& Orders</span>
+    </div>
+    </div>
       <div className='cart-container'>
     <img src="/cart.png" className='cart'></img>
     <div className='cart-text-container'>
       <span className='cartline-1'>
       </span>
-      <span className='cartline-2'> Carrito
+      <span className='line-2'> Carrito
       </span>
     </div>
     </div>
