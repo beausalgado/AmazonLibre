@@ -49,7 +49,7 @@ export default function Home() {
     </div>
     </div>
     <div className='nav-search'>
-      <select className='search-left'>
+      <select className='select-left'>
         <option>Todo</option>
         <option>Zapatillas</option>
         <option>Plantas</option>
@@ -61,6 +61,10 @@ export default function Home() {
      <img src="/magnifier.png" className='magnifying-glass'></img>
      </div>
       </div>
+      <div className='flags-container'>
+      <img src="/americanflag.png" className='flag'></img>
+      <span className='language'>EN</span>
+    </div>
       <div className='cart-container'>
     <img src="/cart.png" className='cart'></img>
     <div className='cart-text-container'>
