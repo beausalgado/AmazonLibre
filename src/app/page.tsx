@@ -45,7 +45,7 @@ export default function Home() {
     <img src="/pin.png" className='pin'></img>
     <div className='delivery-text'>
       <span className='deliveryline-1'>Enviar a Beau</span>
-      <span className='deliveryline-2'>CABA 1641</span>
+      <span className='deliveryline-2'>CABA CP1641</span>
     </div>
     </div>
     <div className='nav-search'>
@@ -55,12 +55,21 @@ export default function Home() {
         <option>Plantas</option>
       </select>
     <form method="GET" name="global-search">
-      <input type="text" placeholder="Buscar prodcuts, marcas y más.." className='search-box'></input>
+      <input type="text" placeholder="Buscar productos, marcas y más.." className='search-box'></input>
   </form>
      <div className='search-right'>
      <img src="/magnifier.png" className='magnifying-glass'></img>
      </div>
       </div>
+      <div className='cart-container'>
+    <img src="/cart.png" className='cart'></img>
+    <div className='cart-text-container'>
+      <span className='cartline-1'>
+      </span>
+      <span className='cartline-2'> Carrito
+      </span>
+    </div>
+    </div>
   </div>
   </header>
   <h1 className="title">To Do List</h1>

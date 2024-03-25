@@ -110,6 +110,26 @@ body {
 
     }
 
+    .cart-container {
+       display: flex;
+    }
+
+    .cart-text-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       font-weight: 700;
+     }
+
+     .cartline-2 {
+       font-size: 14px;
+     }
+
+    .cart {
+        height: 30px;
+        padding-left: 10px;
+    }
+
 }
 
 
