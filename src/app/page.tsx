@@ -55,7 +55,7 @@ export default function Home() {
         <option>Plantas</option>
       </select>
     <form method="GET" name="global-search">
-      <input type="text" placeholder="Buscar productos, marcas y más.." className='search-box'></input>
+      <input type="text" placeholder="Buscar productos, marcas y más..." className='search-box'></input>
   </form>
      <div className='search-right'>
      <img src="/magnifier.png" className='magnifying-glass'></img>
@@ -63,7 +63,11 @@ export default function Home() {
       </div>
       <div className='flags-container'>
       <img src="/americanflag.png" className='flag'></img>
-      <span className='language'>EN</span>
+      <select className='language-select'>
+      <option>EN</option>
+      <option>ES</option>
+      </select>
+     
     </div>
       <div className='cart-container'>
     <img src="/cart.png" className='cart'></img>

@@ -118,12 +118,17 @@ body {
        justify-content: flex-end;
        padding-left: 15px;
        font-weight: 700;
-margin-top: 5px;
+       margin-top: 5px;
     }
 
     .flag {
         height: 15px;
         padding-right: 4px;
+    }
+    .language-select {
+        border: 0;
+        color: #fff;
+        background-color: transparent;
     }
 
     .cart-container {
