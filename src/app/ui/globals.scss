@@ -147,7 +147,7 @@ body {
      }
 
     .cart {
-        height: 37px;
+        height: 30px;
     }
 
     .align-number-cart {
@@ -160,8 +160,9 @@ body {
         color: #F08806;
         position: absolute;
         font-weight: 700;
-         top: 11px;
-          left: 18px;
+        transform: translate(3px, 8px); 
+        //  top: 11px;
+        //   left: 18px;
     }
     .cartline-1 {
         visibility: hidden;

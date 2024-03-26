@@ -83,7 +83,7 @@ export default function Home() {
     </div>
       <div className='cart-container'>
         <div className='align-number-cart'>
-        <span className='cart-number'>12
+        <span className='cart-number'>0
       </span>
     <img src="/cart.png" className='cart'></img>
         </div>
