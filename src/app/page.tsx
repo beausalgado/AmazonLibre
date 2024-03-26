@@ -85,7 +85,7 @@ export default function Home() {
         <div className='align-number-cart'>
         <span className='cart-number'>0
       </span>
-    <img src="/cart1.svg" className='cart'></img>
+    <img src="/cart.svg" className='cart'></img>
         </div>
     <div className='cart-text-container'>
       <span className='cartline-1'>.
