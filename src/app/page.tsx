@@ -82,9 +82,13 @@ export default function Home() {
     </div>
     </div>
       <div className='cart-container'>
+        <div className='align-number-cart'>
+        <span className='cart-number'>12
+      </span>
     <img src="/cart.png" className='cart'></img>
+        </div>
     <div className='cart-text-container'>
-      <span className='cartline-1'>
+      <span className='cartline-1'>.
       </span>
       <span className='line-2'> Carrito
       </span>

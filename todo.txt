@@ -3,5 +3,5 @@ make search box wide
  
 renamedrepository
 
-fix width, why is it disappearing
+fix width, why is it disappearing. I think it's because the padding is being applied with respect to the bounds of the page
 fix padding on logo and cart on sides
