@@ -22,7 +22,6 @@ body {
     align-items: center;
     color: #fff;
     font-size: 12px;
-   // padding: 0px 20px;
 
     .nav-text-container {
         display: flex;
@@ -58,8 +57,7 @@ body {
     .nav-logo {
     height:30px;
     width: auto;
-    padding: 9px;
-    padding-top: 18px;
+    padding: 20px 9px 9px 15px;
     }
     form {
        flex: 1;
@@ -138,6 +136,7 @@ body {
 
     .cart-container {
        display: flex;
+       padding-right: 8px;
     }
 
     .cart-text-container {
