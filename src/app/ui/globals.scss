@@ -147,7 +147,8 @@ body {
      }
 
     .cart {
-        height: 30px;
+        height: 37px;
+        padding-top: 2px
     }
 
     .align-number-cart {
@@ -160,7 +161,8 @@ body {
         color: #F08806;
         position: absolute;
         font-weight: 700;
-        transform: translate(3px, 8px); 
+        font-size: 14px;
+        //transform: translate(3px, 8px); 
         //  top: 11px;
         //   left: 18px;
     }
