@@ -8,6 +8,7 @@
 
 
 #done ✅
+-created Quizlet flashcard deck for learning new concepts
 -watched one hour long video on useState
 -read Next.js docs on data fetching patterns
 -watched video differentiating margin from padding CSS and touched on collapsing margins
