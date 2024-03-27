@@ -1,11 +1,13 @@
 #todo 📝
 -watch video on useEffect
 -watch video on useState
+-watch Goncy's Twitch stream coding interviews
 
 
  
 #done ✅
 -watching video on useEffect
+-watching Goncy's Twitch stream interview with Lu from @todocode
 -read Next.js docs on data fetching patterns
 -watched video differentiating margin from padding CSS and touched on collapsing margins
 -make search box wide
