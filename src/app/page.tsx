@@ -26,7 +26,13 @@ const products = [
     </li>
   );
 
- 
+  
+const selectorData = async function getSelectorData() {
+   const res = await fetch('https://api.mercadolibre.com/sites/MLA/categories');
+   const categories = await res.json()
+   console.log(categories)
+   return categories 
+ }
 
 
 export default function Home() {
@@ -34,6 +40,7 @@ export default function Home() {
     function handleClick() {
       setNumberofClicks(numberofclicks + 1);
     }
+    
 
   return (
   <>
@@ -99,6 +106,9 @@ export default function Home() {
   <h1 className="title">To Do List</h1>
   <h1 className="title"> {isLoggedIn && user.name}</h1>
   <ul>{listItems}</ul>
+  <pre>
+    {selectorData[0]}
+  </pre>
 
   </>
 

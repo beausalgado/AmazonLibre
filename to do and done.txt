@@ -1,6 +1,5 @@
 #todo 📝
 -watch Goncy's Twitch stream coding interviews
--watch videos on data fetching in Next.js
 
 #doing ⌛️
 -watch Goncy's Twitch stream interview with Lu from @todocode
@@ -8,8 +7,11 @@
 
 
 #done ✅
+-watched video on React component organization 
 -created Anki flashcard deck 
 -watched video on useEffect
+-watched videos on data fetching in Next.js
+-watched Vercel video on next/image applied
 -created Quizlet flashcard deck for learning new concepts
 -watched one hour long video on useState
 -read Next.js docs on data fetching patterns
