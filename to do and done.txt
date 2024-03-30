@@ -9,6 +9,7 @@
 
 #done ✅
 -watched video on React component organization 
+-broke 400 connections from 220 on LinkedIn
 -created Anki flashcard deck 
 -watched video on useEffect
 -watched videos on data fetching in Next.js
