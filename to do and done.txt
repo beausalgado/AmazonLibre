@@ -6,6 +6,9 @@
 -adding people from FB and abroad to LinkedIn 
 -integrating APIs 
 
+#questions 🙋🏽‍♂️
+-different ways to call a function or an async function
+
 
 #done ✅
 -watched video on React component organization 

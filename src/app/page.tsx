@@ -27,20 +27,20 @@ const products = [
   );
 
   
-const selectorData = async function getSelectorData() {
+async function getSelectorData() {
    const res = await fetch('https://api.mercadolibre.com/sites/MLA/categories');
    const categories = await res.json()
-   console.log(categories)
    return categories 
  }
 
 
-export default function Home() {
+
+export default async function Home() {
     const [numberofclicks, setNumberofClicks] = useState(0);
     function handleClick() {
       setNumberofClicks(numberofclicks + 1);
     }
-    
+    const selectorData = await getSelectorData()
 
   return (
   <>
@@ -58,8 +58,7 @@ export default function Home() {
     <div className='nav-search'>
       <select className='select-left'>
         <option>Todo</option>
-        <option>Zapatillas</option>
-        <option>Plantas</option>
+        {selectorData.map(selectorItem => <option key={selectorItem.id}> {selectorItem.name} </option> )}
       </select>
     <form method="GET" name="global-search">
       <input type="text" placeholder="Buscar productos, marcas y más..." className='search-box'></input>
@@ -107,7 +106,7 @@ export default function Home() {
   <h1 className="title"> {isLoggedIn && user.name}</h1>
   <ul>{listItems}</ul>
   <pre>
-    {selectorData[0]}
+    {/* {selectorData} */}
   </pre>
 
   </>
