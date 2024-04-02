@@ -67,6 +67,7 @@ body {
     }
     form {
        flex: 1;
+       display: flex;
     }
     .nav-search{
         display: flex;
@@ -88,7 +89,6 @@ body {
             background-color: #D4D4D4;
               }
     }
-
     .search-box{
         height: 35px;
         width: 100%;
@@ -109,6 +109,10 @@ body {
         display: flex;
         align-items: center;
         border-radius: 0px 3px 3px 0px;
+        color: inherit;
+        border: none;
+        padding: 0;
+        outline: inherit;
      
      &:hover {
    background-color: #ff9900;
