@@ -1,4 +1,6 @@
+//'use-client';
 import Selector from './searchbarselector';
+import LanguageSelector from "./languageselector"
 
 export default function Header() {
 
@@ -25,14 +27,8 @@ export default function Header() {
      <img src="/magnifier.png" className='magnifying-glass'></img>
      </div>
       </div>
-      <div className='flags-container'>
-      <img src="/americanflag.png" className='flag'></img>
-      <select className='language-select'>
-      <option>EN</option>
-      <option>ES</option>
-      </select>
-     
-    </div>
+
+      <LanguageSelector/>
     <div className='nav-text-container accounts'>
     <div className='nav-innertext-container'>
       <span className='line-1'>Hello, Beau</span>
