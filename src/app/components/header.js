@@ -1,5 +1,7 @@
-import LanguageSelector from "./languageselector"
-import SearchBar from "./searchbar"
+import LanguageSelector from "./languageselector";
+import SearchBar from "./searchbar";
+
+
 
 export default function Header() {
 
@@ -16,7 +18,10 @@ export default function Header() {
       <span className='line-2'>CABA CP1641</span>
     </div>
     </div>
-       <SearchBar/>
+
+
+          <SearchBar/>
+
       <LanguageSelector/>
     <div className='nav-text-container accounts'>
     <div className='nav-innertext-container'>
