@@ -1,6 +1,5 @@
-//'use-client';
-import Selector from './searchbarselector';
 import LanguageSelector from "./languageselector"
+import SearchBar from "./searchbar"
 
 export default function Header() {
 
@@ -17,17 +16,7 @@ export default function Header() {
       <span className='line-2'>CABA CP1641</span>
     </div>
     </div>
-    <div className='nav-search'>
-       <Selector/>
-
-    <form method="GET" name="global-search">
-      <input type="text" placeholder="Buscar productos, marcas y más..." className='search-box'></input>
-  </form>
-     <div className='search-right'>
-     <img src="/magnifier.png" className='magnifying-glass'></img>
-     </div>
-      </div>
-
+       <SearchBar/>
       <LanguageSelector/>
     <div className='nav-text-container accounts'>
     <div className='nav-innertext-container'>
