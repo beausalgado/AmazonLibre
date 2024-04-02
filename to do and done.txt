@@ -3,7 +3,7 @@
 
 #doing ⌛️
 -watch Goncy's Twitch stream interview with Lu from @todocode
--adding people from FB and abroad to LinkedIn 
+-adding people from FB and abroad to LinkedIn  
 -integrating APIs 
 
 #questions 🙋🏽‍♂️
