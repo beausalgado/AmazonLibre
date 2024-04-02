@@ -1,5 +1,6 @@
 #todo 📝
 -watch Goncy's Twitch stream coding interviews
+-create product results page
 
 #doing ⌛️
 -watch Goncy's Twitch stream interview with Lu from @todocode

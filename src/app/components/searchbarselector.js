@@ -1,5 +1,5 @@
 async function getSelectorData() {
-    const res = await fetch('https://api.mercadolibre.com/sites/MLA/categories');
+    const res = await fetch(process.env.SELECTOR_API);
     const categories = await res.json()
     return categories 
   }
