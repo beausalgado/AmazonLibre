@@ -15,15 +15,15 @@ export default function SearchBar() {
 
     const [searchQuery, setSearchQuery] = useState("");
 
-    //     useEffect(() => {
+//     useEffect(() => {
 
-    //         const searchParams = useSearchParams()
-    //         const search = searchParams.get('query')
-    //         console.log(search);
-    //         return () => {
+//         const searchParams = useSearchParams()
+//         const search = searchParams.get('query')
+//         console.log(search);
+//         return () => {
 
-    //         };
-    // });
+//         };
+// });
 
 
 
