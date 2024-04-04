@@ -1,26 +1,30 @@
 'use client';
 import { useEffect, useState } from 'react';
+const APIData = process.env.SELECTOR_API
+//console.log(APIData)
 
-async function getSelectorData() {
-  const res = await fetch(process.env.SELECTOR_API);
-  const categories = await res.json();
-  return categories;
-}
+// async function getSelectorData() {
+//   console.log("selector data")
+//   const res = await fetch();
+//   console.log("fetching selector data")
+//   const categories = await res.json();
+//   console.log("fetching selector data json")
+//   console.log(categories)
+//   return categories;
+// }
 
 export default function Selector() {
   const [selectorData, setSelectorData] = useState([]);
 
   useEffect(() => {
-    async function fetchData() {
-      try {
-        const data = await getSelectorData();
-        setSelectorData(data);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    }
-
-    fetchData();
+    console.log("fetch")
+    //console.log(APIData)
+    fetch("https://api.mercadolibre.com/sites/MLA/categories")
+      .then((res) => res.json())
+      .then((data) => {
+        setSelectorData(data)
+      })
+    console.log("fetch1")
   }, []);
 
 
