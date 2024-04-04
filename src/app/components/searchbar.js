@@ -5,25 +5,25 @@ import { useEffect, useState } from 'react';
 // import React from 'react';
 // import { useSearchParams } from 'react-router-dom';
 
-function GetParams() {
-    console.log("runs function")
+// function GetParams() {
+//     console.log("runs function")
 
-}
+// }
 
 
 export default function SearchBar() {
 
-    const [searchQuery, setSearchQuery] = useState("");
+    // const [searchQuery, setSearchQuery] = useState("");
 
-//     useEffect(() => {
+    //     useEffect(() => {
 
-//         const searchParams = useSearchParams()
-//         const search = searchParams.get('query')
-//         console.log(search);
-//         return () => {
+    //         const searchParams = useSearchParams()
+    //         const search = searchParams.get('query')
+    //         console.log(search);
+    //         return () => {
 
-//         };
-// });
+    //         };
+    // });
 
 
 

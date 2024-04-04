@@ -14,7 +14,7 @@ export default function Header() {
     <div className='nav-text-container'>
     <img src="/pin.png" className='pin'></img>
     <div className='nav-innertext-container'>
-      <span className='line-1 delivery'>Enviar a Beau</span>
+      <span className='line-1 delivery' >Enviar a Beau</span>
       <span className='line-2'>CABA CP1641</span>
     </div>
     </div>

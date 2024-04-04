@@ -10,7 +10,7 @@
 #questions 🙋🏽‍♂️
 -different ways to call a function or an async function
 -why does useEffect and other hooks have a callback as first parameter?
-
+-Select box styling 
 
 #done ✅
 -watched video on React component organization 
