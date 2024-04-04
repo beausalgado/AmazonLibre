@@ -1,6 +1,7 @@
 #todo 📝
 -watch Goncy's Twitch stream coding interviews
 -create product results page
+-separate API call from client component
 
 #doing ⌛️
 -watch Goncy's Twitch stream interview with Lu from @todocode
@@ -11,6 +12,7 @@
 -different ways to call a function or an async function
 -why does useEffect and other hooks have a callback as first parameter?
 -Select box styling 
+-why is env returning undefined client side?
 
 #done ✅
 -watched video on React component organization 
