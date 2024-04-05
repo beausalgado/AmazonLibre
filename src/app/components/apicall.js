@@ -12,15 +12,15 @@ const APIData = process.env.SELECTOR_API
 //   return categories;
 // }
 
- export const [selectorData, setSelectorData] = useState([]);
+//  export const [selectorData, setSelectorData] = useState([]);
 
-  useEffect(() => {
-    console.log("fetch")
-    //console.log(APIData)
-    fetch("https://api.mercadolibre.com/sites/MLA/categories")
-      .then((res) => res.json())
-      .then((data) => {
-        setSelectorData(data)
-      })
-    console.log("fetch1")
-  }, []);
+//   useEffect(() => {
+//     console.log("fetch")
+//     //console.log(APIData)
+//     fetch("https://api.mercadolibre.com/sites/MLA/categories")
+//       .then((res) => res.json())
+//       .then((data) => {
+//         setSelectorData(data)
+//       })
+//     console.log("fetch1")
+//   }, []);
