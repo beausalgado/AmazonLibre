@@ -1,7 +1,7 @@
 #todo 📝
 -watch Goncy's Twitch stream coding interviews
 -create product results page
--separate API call from client component 
+-separate API call from client component  
 
 #doing ⌛️ 
 -watching Goncy's Twitch stream interview with Lu from @todocode
